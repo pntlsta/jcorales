@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JCorales Creative</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/favicon.png" />
+    <script src="https://kit.fontawesome.com/49c99e735f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+
+
+<body class="smooth-scroll">
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <a href="#top" class="back-to-lastpage" onclick="history.back(); return false;">
+        <i class="fa-solid fa-arrow-left"></i>
+    </a>
+
+
+    <!-- Preloader (transition screen) -->
+    <div id="preloader">
+        <div class="loader">
+            <img src="assets/logo_white.png" alt="Loading..." />
+        </div>
+    </div>
+
+    <!-- Fullscreen Nav Overlay -->
+
+    <div id="nav-overlay">
+        <div class="nav-overlay-child menu">
+            <a href="index.html" class="menu-items">Home</a>
+            <a href="work.html" class="menu-items">Our Work</a>
+            <a href="about.html" class="menu-items">About Us</a>
+            <a href="contact.html" class="menu-items">Get in Touch</a>
+        </div>
+
+        <div class="nav-overlay-child">
+            <img src="assets/menu-img.png" alt="" class="menu-right-half">
+        </div>
+    </div>
+
+    <!-- Burger Button -->
+
+
+    <!-- Hero Section -->
+    <section class="section hero" id="hero">
+
+        <div class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <section class="center">
+            <div class="serigraphy-header center">
+                <img src="assets/serigraphy-banner.png" alt="" class="reveal-left">
+                <h1 class="serigraphy-h1" class="reveal">SERIGRAPHY</h1>
+                <p>This is a collection of serigraphy prints I made throughout my career.</p>
+            </div>
+        </section>
+
+        <section class="section white center column">
+            <!-- WRAPPER -->
+            <div class="artwork center"> 
+                <div class="artwork-row">
+                    <a href=""><img src="assets/thumbnails/tn1.png" alt="" class="artwork-thumbnail"></a>
+                    <a href=""><img src="assets/thumbnails/tn2.png" alt="" class="artwork-thumbnail"></a>
+                    <a href=""><img src="assets/thumbnails/tn3.png" alt="" class="artwork-thumbnail"></a>
+                    <a href=""><img src="assets/thumbnails/tn4.png" alt="" class="artwork-thumbnail"></a>
+                </div>
+            </div>
+
+            <div class="artwork center"> 
+                <div class="artwork-row">
+                    <a href=""><img src="assets/thumbnails/tn5.png" alt="" class="artwork-thumbnail"></a>
+                    <a href=""><img src="assets/thumbnails/tn6.png" alt="" class="artwork-thumbnail"></a>
+                    <a href=""><img src="assets/thumbnails/tn7.png" alt="" class="artwork-thumbnail"></a>
+                    <a href=""><img src="assets/thumbnails/tn8.png" alt="" class="artwork-thumbnail"></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+
+        <section class="portfolio-category" id="white-section">
+            <div class="footer">
+                <div class="left-footer">
+                    <div class="left-footer-child">
+                        <img src="assets/logo_white.png" width="50%">
+                    </div>
+                </div>
+
+                <div class="mid-footer">
+                    <div class="mid-footer-child">
+                        <div class="footer-links">
+                            <i class="fa-solid fa-house"></i><a href="index.html">Home</a>
+                        </div>
+
+                        <div class="footer-links">
+                            <i class="fa-solid fa-briefcase"></i><a href="work.html">Work</a>
+                        </div>
+
+                        <div class="footer-links">
+                            <i class="fa-solid fa-address-card"></i><a href="about.html">About</a>
+                        </div>
+
+                        <div class="footer-links">
+                            <i class="fa-solid fa-address-book"></i><a href="contact.html">Contact</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-footer">
+                    <div class="right-footer-child">
+                        <h3>
+                            Subscribe to my newsletter!
+                        </h3> <br>
+
+                        <p>Get e-mail updates about my latest work, new prints, <br>and current exhibitions!</p>
+                        <br><br>
+
+                        <form class="newsletter">
+                            <label class="hide">E-mail </label> &nbsp;&nbsp;
+                            <input type="text" class="textbox" id="email" placeholder="" maxlength="30" />
+
+                            <br>
+                            <input type="button" value="Submit" id="btnSubscribe2" class="news-submit"
+                                onclick="btnSubscribe()" />
+                        </form>
+
+                        <div class="footer-socials">
+                            <div class="f-con">
+                                <a href="https://facebook.com/jcorales.creative" target="_blank"
+                                    class="fa-brands fa-square-facebook"></a>
+                            </div>
+
+                            <div class="f-con">
+                                <a href="https://instagram.com/jcorales.art" target="_blank"
+                                    class="fa fa-instagram"></a>
+                            </div>
+
+                            <div class="f-con">
+                                <a href="https://www.linkedin.com/in/jae-corales-031982216" target="_blank"
+                                    class="fa fa-linkedin"></a>
+                            </div>
+
+                            <div class="f-con">
+                                <a href="contact.html" class="fa fa-envelope"></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-footer">
+                <p><i class="fa fa-copyright"></i>&nbsp;&nbsp;Coded by Jae Corales &nbsp;| &nbsp;Fueled by coffee and
+                    deadlines.</p>
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <!-- Footer -->
+
+
+
+        <script src="preloader.js"></script>
+
+
+</body>
+
+</html>
